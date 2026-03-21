@@ -1,0 +1,73 @@
+
+body {
+    background-image:url(../imagens/pexels-tima-miroshnichenko-6169018.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#iphone {
+    height: 600px;
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../imagens/iphone.png);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+iframe {
+    position: relative;
+    height: 503px;
+    width: 240px;
+    top: 60px;
+    left: 181px;
+    border-radius: 0px 0px 40px 40px;
+
+}
+
+#instagram {
+    position: absolute;
+    left: 90%;
+    top: 10%;
+}
+
+#home {
+    position: absolute;
+    left: 90%;
+    top: 2%;
+
+}
+
+#github {
+    position: absolute;
+    left: 90%;
+    top: 18%;
+
+}
+
+#youtube {
+    position: absolute;
+    left: 90%;
+    top: 26%;
+
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+.logo:hover {
+    height: 55px;
+    width: 55px;
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.459);
+}
+
+    
