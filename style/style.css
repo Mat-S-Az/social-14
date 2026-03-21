@@ -17,6 +17,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    
 
 }
 iframe {
@@ -60,14 +61,16 @@ iframe {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
 }
 
 
 
 .logo:hover {
-    height: 55px;
-    width: 55px;
+    height: 49px;
+    width: 49px;
     box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.459);
+    transition: 0.15s;
 }
 
     
